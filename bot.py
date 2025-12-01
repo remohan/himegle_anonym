@@ -2,7 +2,7 @@ import telebot
 from telebot.types import Message
 
 # Enter your bot token here
-BOT_TOKEN = "AAG3lgErlkDfJ7ikCXwD8mEL7M-FnKtiYR4"
+BOT_TOKEN = "your_token_here"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -89,3 +89,4 @@ def relay(message: Message):
 
 # ---------------- START BOT ---------------- #
 bot.polling(none_stop=True)
+
